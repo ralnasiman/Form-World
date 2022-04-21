@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.contents{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px dashed black;
+    padding : 15px 10px;
+    background-color: whitesmoke;
+}
+
+.form-element{
+    margin: 10px;
+    padding: 5px;
+}
+
+#messageAfterSubmit{
+    color: darkblue;
+}
